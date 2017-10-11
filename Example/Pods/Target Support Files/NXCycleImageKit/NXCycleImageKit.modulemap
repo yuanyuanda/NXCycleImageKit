@@ -1,0 +1,6 @@
+framework module NXCycleImageKit {
+  umbrella header "NXCycleImageKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
