@@ -1,9 +1,9 @@
 {
   "name": "NXCycleImageKit",
-  "version": "0.1.0",
-  "summary": "A short description of NXCycleImageKit.",
+  "version": "1",
+  "summary": "轮播图",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/790030601@qq.com/NXCycleImageKit",
+  "homepage": "https://github.com/yuanyuanda/NXCycleImageKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "790030601@qq.com": "790030601@qq.com"
   },
   "source": {
-    "git": "https://github.com/790030601@qq.com/NXCycleImageKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/yuanyuanda/NXCycleImageKit.git",
+    "tag": "1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "NXCycleImageKit/Classes/**/*"
+  "source_files": "NXCycleImageKit/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+
+    ]
+  }
 }

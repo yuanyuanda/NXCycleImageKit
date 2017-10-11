@@ -1,5 +1,9 @@
 PODS:
-  - NXCycleImageKit (0.1.0)
+  - NXCycleImageKit (1):
+    - SDWebImage
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
   - NXCycleImageKit (from `../`)
@@ -9,7 +13,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  NXCycleImageKit: 34b7c70b14ac1fdd6cc38862adcc5cfdc77eeef2
+  NXCycleImageKit: d4e2644fdec536084346fa69797a59b83be1e7c5
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
 PODFILE CHECKSUM: 8f4a3b6c104e5fb77aa34aa274d5356b0770671c
 
