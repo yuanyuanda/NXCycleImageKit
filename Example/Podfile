@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NXCycleImageKit_Example' do
+  pod 'NXCycleImageKit', :path => '../'
+
+  target 'NXCycleImageKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
